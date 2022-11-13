@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    margin-top: -1.5rem;
+}
+
+.input {
+    width: 100%;
+    background: var(--gray-500);
+    color: var(--white);
+    padding: 1rem;
+    border: 0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    border: 1px solid var(--blue-dark);
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: var(--blue);
+    transition: background-color 0.2s;
+}
