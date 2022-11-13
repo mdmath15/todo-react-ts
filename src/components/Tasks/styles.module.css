@@ -1,0 +1,32 @@
+.tasksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 4rem;
+  }
+  
+  .tasksHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalTasks {
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  
+  .completedTasks {
+    color: var(--purple);
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  
+  .quantity {
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    background: var(--gray-400);
+    border-radius: 999px;
+    color: var(--gray-200);
+  }
+  
