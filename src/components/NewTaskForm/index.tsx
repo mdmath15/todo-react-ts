@@ -1,5 +1,5 @@
-import styles from "./styles.module.css"
-import { PlusCircle } from "phosphor-react"
+import styles from './styles.module.css'
+import { PlusCircle } from 'phosphor-react'
 
 export function NewTaskForm() {
   return (
@@ -16,5 +16,5 @@ export function NewTaskForm() {
         <PlusCircle size={16} />
       </button>
     </form>
-  );
+  )
 }
