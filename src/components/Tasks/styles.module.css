@@ -14,12 +14,14 @@
     color: var(--blue);
     font-size: 0.875rem;
     font-weight: bold;
+    margin-right: 1rem;
   }
   
   .completedTasks {
     color: var(--purple);
     font-size: 0.875rem;
     font-weight: bold;
+    margin-right: 1rem;
   }
   
   .quantity {
