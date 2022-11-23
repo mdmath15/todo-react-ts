@@ -30,5 +30,28 @@
     background: var(--gray-400);
     border-radius: 999px;
     color: var(--gray-200);
+    margin-left: .5rem;
   }
   
+ .empty {
+    border-top: 1px solid var(--gray-500);
+    margin-top: 0.5rem;
+  }
+
+  .emptyContent {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .emptyContent > img {
+    margin-bottom: 1rem;
+  }
+
+  .emptyContent > p {
+    line-height: 23px;
+  }
+
+  .emptyContent p:nth-child(2){
+    font-weight: bold;
+    color: var(--gray-300)
+  }
